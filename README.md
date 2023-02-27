@@ -2,7 +2,7 @@
 
 Ce cours de formation sur Node.js vous guidera à travers les étapes pour créer une application web Node.js, en utilisant le framework Fastify et la base de données MongoDB. Vous apprendrez comment configurer votre environnement de développement, comment créer des API REST, comment valider les données, comment sécuriser votre application en utilisant JWT et CORS, et plus encore.
 
-# Préentation et installation
+# Présentation et installation
 
 Dans cette section, nous allons présenter Node.js et expliquer comment l'installer sur votre système d'exploitation. Nous aborderons également les notions de base de Node.js et comment exécuter une application Node.js.
 
