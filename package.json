@@ -1,0 +1,25 @@
+{
+  "name": "formation-nodejs",
+  "version": "1.0.0",
+  "description": "Ce cours de formation sur Node.js vous guidera à travers les étapes pour créer une application web Node.js, en utilisant le framework Fastify et la base de données MongoDB. Vous apprendrez comment configurer votre environnement de développement, comment créer des API REST, comment valider les données, comment sécuriser votre application en utilisant JWT et CORS, et plus encore.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init:compiler": "npx tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anyanka77/formation-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anyanka77/formation-nodejs/issues"
+  },
+  "homepage": "https://github.com/Anyanka77/formation-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  }
+}
