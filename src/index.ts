@@ -1,9 +1,16 @@
-console.log(
-  "Dans une Galaxie lointaine, très lointaine... Un petit jawa curieux se promène..."
-);
+import fastify from "fastify";
 
-// On affiche la variable d'environement
-console.log(process.env.NODE_ENV);
-console.log(process.env.TZ);
-console.log(process.env.HOST);
-console.log(process.env.PORT);
+const app = fastify();
+
+app.listen({ port: 4646, host: "127.0.0.1" }, () => {
+  // Affiche un message dans la console nous indiquant que le serveur est démarré
+  console.log("Le serveur http est prêt sur l'address : http://127.0.0.1:4646");
+});
+
+app.get("/", () => {
+  return "Bienvenue sur Tatooine !";
+});
+
+app.get("/hello", () => {
+  return "Utinni !";
+});
