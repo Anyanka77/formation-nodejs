@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "init:compiler": "tsc --watch",
-    "start:nodemon": "npx nodemon dist/"
+    "start:nodemon": "npx nodemon dist/index.js",
+    "start": "npx concurrently npm:init:compiler npm:start:nodemon"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/Anyanka77/formation-nodejs#readme",
   "devDependencies": {
     "@types/node": "^18.14.2",
+    "concurrently": "^7.6.0",
     "nodemon": "^2.0.20",
     "typescript": "^4.9.5"
   }
